@@ -94,6 +94,15 @@ li a {
     margin: 2%;
 }
 
+.video {
+    padding-bottom: 5%;
+}
+
+.video iframe {
+    display: block;
+    margin: auto;
+}
+
 
 /*FOOTER */
 
@@ -125,4 +134,12 @@ li a {
     width: 50%;
     padding-bottom: 10px;
     border-radius: 10%;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.4);
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
 }
